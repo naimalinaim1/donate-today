@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER STYLE */
+.header {
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('../images/donation11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-text {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.header-title {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+.header-des {
+    color: #bbb9b9;
+    line-height: 30px;
+    margin-bottom: 30px;
+}

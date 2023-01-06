@@ -1,0 +1,25 @@
+/* google font poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+.container {
+    width: 98%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.btn-primary {
+    color: #ddd;
+    font-size: 18px;
+    display: inline-block;
+    background: #e21b6a;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.btn-primary:hover {
+    background: #ba1356;
+}
