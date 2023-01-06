@@ -63,3 +63,60 @@
     padding: 10px 0;
     text-align: center;
 }
+/*Donate Plan*/
+.plan-container {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+.it-1 {
+    background: rgba(116, 203, 238, 0.416);
+}
+.it-2 {
+    background: rgba(220, 115, 35, 0.416);
+}
+.it-3 {
+    background: rgba(225, 240, 6, 0.416);
+}
+.plan-item {
+    padding: 50px 35px;
+    border-radius: 5px;
+}
+.plan-item img {
+    margin-bottom: 25px;
+}
+.plan-title {
+    font-size: 23px;
+    margin-bottom: 17px;
+}
+.plan-des {
+    line-height: 30px;
+}
+.depend-man {
+    width: 95%;
+    display: flex;
+    gap: 6%;
+    margin-bottom: 70px;
+}
+.depend-text {
+    width: 50%;
+}
+.depend-title {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.depend-des {
+    color: rgb(174, 168, 168);
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+.depend-text .btn-primary {
+    margin-top: 30px;
+}
+.depend-image {
+    width: 50%;
+}
+.depend-image img {
+    height: 430px;
+    border-radius: 5px;
+}
