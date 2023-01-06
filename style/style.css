@@ -136,6 +136,7 @@
     text-align: center;
     padding: 70px 0;
     border-radius: 5px;
+    margin-bottom: 100px;
 }
 .contact-form input{
     width: 35%;
@@ -158,4 +159,18 @@
 .contact-form input[type="submit"]:hover {
     background: #ac114f;
     color: #ddd;
+}
+/* Footer style */
+.footer {
+    background: #121212;
+    text-align: center;
+    padding: 40px 0 35px;
+}
+.footer h3 {
+    color: rgba(248, 157, 96, 0.887);
+    font-size: 30px;
+}
+.footer p {
+    color: #c8c2c2;
+    font-size: 14px;
 }
