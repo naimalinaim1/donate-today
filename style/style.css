@@ -95,6 +95,7 @@
 .depend-man {
     width: 95%;
     display: flex;
+    align-items: center;
     gap: 6%;
     margin-bottom: 70px;
 }
@@ -119,4 +120,42 @@
 .depend-image img {
     height: 430px;
     border-radius: 5px;
+}
+
+/*Contact Area*/
+.contact-area {
+    margin: 30px 70px;
+}
+.contact {
+    width: 80%;
+    margin: 0 auto;
+}
+.contact-form {
+    width: 100%;
+    background: rgba(225, 240, 6, 0.250);
+    text-align: center;
+    padding: 70px 0;
+    border-radius: 5px;
+}
+.contact-form input{
+    width: 35%;
+    padding: 15px;
+    border: 0;
+    background: rgb(175, 172, 172);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 17px;
+}
+.contact-form input[type="submit"] {
+    width: 17%;
+    margin-left: -4px;
+    background: #ba1356;
+    color: #ddd;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.contact-form input[type="submit"]:hover {
+    background: #ac114f;
+    color: #ddd;
 }
