@@ -23,3 +23,16 @@ img {
 .btn-primary:hover {
     background: #ba1356;
 }
+section {
+    margin-top: 120px;
+}
+.section-title {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.section-des {
+    width: 75%;
+    color: #bbb9b9;
+    line-height: 30px;
+    margin: 0 auto 50px;
+}

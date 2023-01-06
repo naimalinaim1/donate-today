@@ -28,3 +28,38 @@
     line-height: 30px;
     margin-bottom: 30px;
 }
+
+/* DONATE AREA STYLE */
+.donate-area {
+    text-align: center;
+}
+.donate-amount {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.donate-item {
+    color: #838080;
+    background: rgba(221, 221, 221, 0.331);
+    font-size: 25px;
+    padding: 38px 32px;
+    margin: 1px;
+    transition: 0.5s background-color, 0.5s border;
+}
+.donate-item:hover {
+    background-color:rgba(255, 0, 0, 0.100);
+    border: 1px solid #a40d0dc0;
+    margin: 0;
+}
+.donate-form {
+    width: 75%;
+    margin: 60px auto 40px;
+}
+.donate-form input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+}
